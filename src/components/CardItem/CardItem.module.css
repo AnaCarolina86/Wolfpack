@@ -1,0 +1,31 @@
+.wolfCard {
+  border: rgb(212, 209, 209) solid 1px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 5px -5px 6px -3px gray;
+}
+
+.wolfCardUnorderedList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  list-style-type: circle;
+}
+
+.wolfCardListItem {
+  margin-bottom: 0.5rem;
+}
+
+.wolfCardIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
+}
+
+.wolfCardIcon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

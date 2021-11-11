@@ -1,0 +1,17 @@
+.cardFormGreen {
+  padding: 1rem;
+  background-color: #ccd5ae;
+  width: fit-content;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.cardFormYellow {
+  padding: 1rem;
+  background-color: #fefae0;
+  width: fit-content;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}

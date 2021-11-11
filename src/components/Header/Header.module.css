@@ -1,0 +1,9 @@
+.header {
+  margin: 5rem auto;
+}
+.headerTitle {
+  font-family: fantasy;
+  font-size: 4em;
+  letter-spacing: 0.25em;
+  margin-left: 2rem;
+}
