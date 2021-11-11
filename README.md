@@ -2,7 +2,7 @@
 
 
 
-## How I did;
+## How I did:
 
 I created a fake API in order to work faster towards the solution.
 
