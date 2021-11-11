@@ -4,7 +4,13 @@
 
 ## How I did;
 
-I created a fake API 
+I created a fake API in order to work faster towards the solution.
+
+I created an application that shows all information from an API in individual cards, 
+and it's possible to update and delete cards.
+
+I implemented this project using React.js, CSS Modules, RESTful API (json-server), React Icons, 
+React Tabs, Modern JavaScript, CSS3, HTML3, and Visual Studio Code.
 
 ## My inputs:
 
