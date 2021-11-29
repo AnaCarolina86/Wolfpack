@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import TextInput from '../TextInput/TextInput';
-import BirthdayInput from '../TextInput/BirthdayInput';
-import DateInput from '../TextInput/DateInput';
+import TextInput from '../Inputs/TextInput';
+import BirthdayInput from '../Inputs/BirthdayInput';
+import DateInput from '../Inputs/DateInput';
 import Button from '../Button/Button';
+import RadioBoxInput from '../Inputs/RadioBoxInput';
 import Error from '../Error/Error';
 
 import styles from './CardForm.module.css';
@@ -94,11 +95,9 @@ export default function CardForm({
         placeHolder="First Name"
       />
 
-      <TextInput 
+      <RadioBoxInput 
         labelDescription="Gender:"
-        inputValue={gender}
-        onInputChange={handleGenderChange}
-        placeHolder="male, female, or other"
+        onInputChange={handleGenderChange}       
       />
 
       <BirthdayInput 

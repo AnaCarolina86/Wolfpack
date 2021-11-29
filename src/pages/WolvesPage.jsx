@@ -149,11 +149,7 @@ export default function WolvesPage() {
           </TabPanel>
 
           <TabPanel>
-            <div className={styles.buttonAlign}>
-              <Button onButtonClick={handleNewCard}>
-                New Wolf Card
-              </Button>
-            </div>
+            
 
             <CardForm createMode={createMode} onPersist={handlePersist}>
               {selectedWolfCard}
