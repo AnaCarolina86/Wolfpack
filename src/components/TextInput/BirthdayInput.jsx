@@ -29,6 +29,9 @@ export default function BirthdayInput({
         value={inputValue}
         onChange={handleInputChange}
         className={styles.textInput}
+        min="1901-01-01"
+        max="2011-01-01"
+        required
       />
     </div>
   )

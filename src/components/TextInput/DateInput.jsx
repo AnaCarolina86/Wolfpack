@@ -30,6 +30,7 @@ export default function DateInput({
         value={inputValue}
         onChange={handleInputChange}
         className={styles.textInput}
+        required
       />      
     </div>
   )

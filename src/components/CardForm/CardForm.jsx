@@ -34,19 +34,19 @@ export default function CardForm({
   }
 
   function handleGenderChange(newGender){
-    setName(newGender);
+    setGender(newGender);
   }
 
   function handleBirthdayChange(newBirthday){
-    setName(newBirthday);
+    setBirthday(newBirthday);
   }
 
   function handleCreateDayChange(newCreateDay){
-    setName(newCreateDay);
+    setCreatedAt(newCreateDay);
   }
 
   function handleUpdateDayChange(newUpdateDay){
-    setName(newUpdateDay);
+    setUpdatedAt(newUpdateDay);
   }
 
   function clearFields(){

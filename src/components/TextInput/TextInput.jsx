@@ -31,6 +31,7 @@ export default function TextInput({
         value={inputValue}
         onChange={handleInputChange}
         placeholder={placeHolder}
+        required
       />      
     </section>
   );
